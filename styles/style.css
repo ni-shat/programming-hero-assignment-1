@@ -1,0 +1,299 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+.left-centered {
+    position: absolute;
+    top: 145px;
+    width: 525px;
+    height: auto;
+    left: 216px;
+}
+
+.left-centered-header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+}
+
+.header-p {
+    margin-top: -40px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    width: 494px;
+    height: auto;
+}
+
+.btn-primary {
+    margin-top: 16px;
+    width: 160px;
+    height: 64px;
+    background-color: rgb(220, 89, 32);
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+}
+
+.first-section {
+    position: absolute;
+    width: 1072px;
+    height: 823.3px;
+    left: 206px;
+    top: 877px;
+}
+
+.img {
+    width: 569px;
+    height: 723.3px;
+    display: inline-block;
+}
+
+
+.body-content {
+    display: inline-block;
+    width: 416px;
+    height: 400px;
+    position: absolute;
+    left: 662px;
+    top: 155px;
+}
+
+.body-content-p1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.body-content-p2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: black;
+    margin-top: -10px;
+}
+
+.body-content-p3 {
+    font-style: normal;
+    width: 349px;
+    height: 162px;
+    margin-top: 20px;
+}
+
+.body-content-p3 img {
+    width: 5%;
+}
+
+.second-section {
+    position: absolute;
+    width: 1190px;
+    height: auto;
+    top: 1734px;
+}
+
+.align-center {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.second-section h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    display: block;
+    width: 179px;
+    height: 20;
+    margin: auto;
+}
+
+.parent-icondiv {
+    text-align: center;
+    font-family: 'Work Sans';
+}
+
+.boxes {
+    display: inline-block;
+    height: auto;
+    margin: 70px 37px;
+}
+
+.boxes h4 {
+    font-size: 30px;
+}
+
+.boxes p {
+    font-size: 23px;
+    font-weight: 500;
+    opacity: .5;
+    margin-top: -14px;
+}
+
+.parent-icondiv img {
+    margin-bottom: 5px;
+}
+
+.clock {
+    position: absolute;
+    width: 1188px;
+    height: 300px;
+    top: 2240px;
+    border-radius: 8px;
+}
+
+.gradient {
+    opacity: .7;
+}
+
+.content-clock {
+    position: absolute;
+    width: 459px;
+    height: 182px;
+    left: 240px;
+    top: 2259px;
+}
+
+.content-clock h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+.content-clock button {
+    width: 160px;
+    height: 64px;
+    background-color: white;
+    color: rgb(220, 89, 32);
+    font-size: large;
+    border-radius: 8px;
+    border: 0;
+}
+
+.service-section {
+    position: absolute;
+    left: 0;
+    top: 2630px;
+    width: 100%;
+    height: 600px;
+    
+}
+
+.service-section h2 {
+    margin-left: 165px;
+    font-size:40px;
+    font-weight:800;
+}
+
+.service-section .container {
+    display: flex;
+    text-align: center; 
+    width: 85%;
+    margin: auto;
+}
+
+.service-section .container > div {
+    width: 400px;
+    height: 600px;
+    margin: 0px 46px;
+    border-radius: 8px;
+    box-shadow: 10px 15px 15px 10px rgb(189, 199, 192);
+    padding: 15px;
+}
+
+.container img {
+    width: 60%; 
+}
+.three > img {
+    padding-top: 25px;
+    width: 41%;
+    margin-bottom: 37px;
+}
+
+.one > div, .two > div, .three > div {
+    margin-top: 30px;
+    height: 230px;
+    text-align: left;
+}  
+
+.container button {
+    width: 160px;
+    height: 64px;
+    float: right;
+    margin-top: 35px;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(220, 89, 32);
+    padding: 5px;
+}
+
+.service-section a {
+    position: relative;
+    text-decoration: none; 
+    bottom: 0;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    left: 0px;
+    top: 3500px;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+
+footer .first {
+    display: inline-block;
+    width: 485px;
+    height: 317px;
+    margin-left: 180px;
+    margin-top: 70px;
+    color: white;
+}
+
+footer .second {
+    display: inline-block;
+    width: 325px;
+    height: 204px;
+    float: right;
+    margin-right: 180px;
+    margin-top: 70px;
+    color: white;
+}
+
+footer form input {
+    display: block;
+    border-radius: 8px;
+    font-size: larger;
+    border-style: solid;
+    border-color: white;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    width: 260px;
+    height: 64px;
+    color: white;
+    background-color: black;
+}
+
+::placeholder {
+    color: white;
+}
+
+footer form .submit {
+    background-color: white;
+    color: rgb(204, 107, 46);
+    font-size: larger;
+    font-weight: 600;
+}
