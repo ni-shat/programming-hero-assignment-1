@@ -5,6 +5,8 @@ body {
 header img {
     width: 100%;
     height: auto;
+    position: absolute;
+    left:0;
 }
 
 .left-centered {
